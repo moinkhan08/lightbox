@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive image light box</title>
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <section>
+
+        <div class="wrapper">
+            <div class="gallery">
+                <div class="image"><span><img src="image/198.jpg" alt=""></span></div>
+                <div class="image"><span><img src="image/7.jpeg" alt=""></span></div>
+                <div class="image"><span><img src="image/cakes.jpg" alt=""></span></div>
+                <div class="image"><span><img src="image/dance1.jpg" alt=""></span></div>
+                <div class="image"><span><img src="image/dance2.jpg" alt=""></span></div>
+                <div class="image"><span><img src="image/dance3.jpg" alt=""></span></div>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------------------------------- -->
+
+        <div class="previewbox">
+
+            <div class="details">
+
+                <span class="title">Image <p class="current-img"> </p> of <p class="total-img"> </p>
+                </span><!---iske andar data java script se ayega-->
+
+                <span class="icon fa fa-times"> </span><!---cross ka symbol ayega isse-->
+
+            </div>
+
+            <div class="imagebox">
+
+                <div class="slide prev"><i class="fa fa-angle-left"></i></div>
+                <div class="slide next"><i class="fa fa-angle-right"></i></div>
+                <img src="" alt=""> <!-----------src javascript se ayega---------------->
+
+            </div>
+        </div>
+        <!-- ----------------------------------------------------------------------------------------------- -->
+        <div class="shadow"> </div>
+
+
+    </section>
+
+    <script src="lightbox.js"> </script>
+</body>
+
+</html>
